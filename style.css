@@ -333,46 +333,46 @@ li .profile_title {
     height: 0.8rem;
 }
 
-/* Blogs Page */
-.blogs_page .blogs_container {
+/* Activity Page */
+.Activity_page .Activity_container {
     margin: 0.4rem;
 }
 
-.blog_box {
+.Activity_box {
     margin-top: 1.2rem;
     border: 0.1rem solid var(--brand-color);
     padding: 0.5rem;
     border-radius: 0.4rem;
 }
 
-.blog_box .blog_title {
+.Activity_box .Activity_title {
     font-size: 1.6rem;
     text-transform: uppercase;
     font-weight: 600;
 }
 
-.blog_box .blog_text {
+.Activity_box .Activity_text {
     margin: 0.4rem 0;
     font-size: 1rem;
     font-weight: 400;
     text-align: justify;
 }
 
-.blog_box .blog_image {
-    width: 50%; /* Set the width of the image */
+.Activity_box .Activity_image {
+    width: 50%; 
     height: auto; /* Ensure the height adjusts proportionally */
     display: block; /* Ensure the image behaves as a block element */
     margin: 0 auto; /* Center the image horizontally */
 }
 
-/* Services Page */
+/* Interest Page */
 
-.services_page .services_container {
+.Interest_page .Interest_container {
     margin: 1.2rem 0.4rem 0.4rem 0.4rem;
     display: flex;
 }
 
-.services_page .services_container .services_box {
+.Interest_page .Interest_container .Interest_box {
     width: 50%;
     margin: 0.6rem;
     border: 0.1rem solid var(--brand-color);
@@ -382,31 +382,31 @@ li .profile_title {
     cursor: pointer;
 }
 
-.services_page .services_container .services_box:hover {
+.Interest_page .Interest_container .Interest_box:hover {
     background-color: var(--brand-color);
     transition: 0.3s;
 }
 
-.services_page .services_container .services_box:hover i,
-.services_page .services_container .services_box:hover .services_title {
+.Interest_page .Interest_container .Interest_box:hover i,
+.Interest_page .Interest_container .Interest_box:hover .Interest_title {
     color: white;
     transition: 0.3s;
 }
 
-.services_box i {
+.Interest_box i {
     color: var(--brand-color);
     font-size: 1.5rem;
     margin: 0.3rem 0;
 }
 
-.services_box .services_title {
+.Interest_box .Interest_title {
     font-size: 1.2rem;
     text-transform: uppercase;
     color: var(--brand-color);
     margin: 0.4rem 0;
 }
 
-.services_box .services_text {
+.Interest_box .Interest_text {
     font-size: 1rem;
     font-weight: 400;
 }
